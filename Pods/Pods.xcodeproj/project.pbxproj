@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F8BFB7F2E9671A9AB454E25D0E503AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		31C234B03099EE24219487A6A02726C5 /* GhostTypewriter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFE25DF0A651B099F8B6669F9AD3E34 /* GhostTypewriter-dummy.m */; };
+		37CE129078754B0A26CD57F749732AEE /* TypewriterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807969DC0B4A28AABD9C56093B232533 /* TypewriterLabel.swift */; };
+		487CE7C02270D08A224BD12D567FC6C1 /* Pods-Brendan_Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D5BD64B4B522375BD5095489938D1 /* Pods-Brendan_Pods-dummy.m */; };
+		555C8FEA85F2278BFE2DB71BAEDE0BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		6D4C73D7D18E54929E767FCF4A5FC2FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		A1861906FC8171934A5242DC4032D2D3 /* Pods-Brendan_Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5BF30DE7D9D17608256C42CD4AB72F /* Pods-Brendan_Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A93B9C5219F711B24E3252FADB99FFE2 /* GhostTypewriter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9166A3C72D329B937A8E870585F8CC2D /* GhostTypewriter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5BDCA8B23A1FD9F009682DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BDCA8A23A1FD9F009682DF /* ViewController.swift */; };
+		E5BDCA8D23A1FE0A009682DF /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BDCA8C23A1FE0A009682DF /* main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CE1A3DD9D28ECB4F9527DFE21896BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE6B10EDAC938DA6D87A1F53A7AC3A6;
+			remoteInfo = GhostTypewriter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C179446A8BAE6FED46868125ABFD9F3 /* GhostTypewriter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GhostTypewriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5BF30DE7D9D17608256C42CD4AB72F /* Pods-Brendan_Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Brendan_Pods-umbrella.h"; sourceTree = "<group>"; };
+		24087C14696BAF5E37928C6356290C13 /* Pods-Brendan_Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Brendan_Pods-frameworks.sh"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		509219EECA09EBA80319EF81875E09C9 /* GhostTypewriter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GhostTypewriter.modulemap; sourceTree = "<group>"; };
+		5B3C45C04D60B0E212C1EC248F91A96A /* GhostTypewriter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GhostTypewriter.xcconfig; sourceTree = "<group>"; };
+		627D5BD64B4B522375BD5095489938D1 /* Pods-Brendan_Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Brendan_Pods-dummy.m"; sourceTree = "<group>"; };
+		6600F50CC6315C0A640AAAF1EAC756F0 /* Pods-Brendan_Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brendan_Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		785DDAD856F4AD53D17E70F1353D3728 /* Pods-Brendan_Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brendan_Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7BFC7F28CA2BA8B9E22DD028DAAA7B14 /* Pods-Brendan_Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Brendan_Pods.modulemap"; sourceTree = "<group>"; };
+		807969DC0B4A28AABD9C56093B232533 /* TypewriterLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypewriterLabel.swift; path = GhostTypewriter/Label/TypewriterLabel.swift; sourceTree = "<group>"; };
+		9166A3C72D329B937A8E870585F8CC2D /* GhostTypewriter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GhostTypewriter-umbrella.h"; sourceTree = "<group>"; };
+		95D2D489F2B8075AD82C9952B7EC12B7 /* Pods-Brendan_Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brendan_Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8D5ED74F9044B1A91C447BFEE81F77D /* Pods-Brendan_Pods-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brendan_Pods-Info.plist"; sourceTree = "<group>"; };
+		AFFE25DF0A651B099F8B6669F9AD3E34 /* GhostTypewriter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GhostTypewriter-dummy.m"; sourceTree = "<group>"; };
+		B7876434EBD18FE8F46AA16B0D55489F /* Pods-Brendan_Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Brendan_Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3D0BF69AA115113DB603F81FDBDE9C4 /* GhostTypewriter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GhostTypewriter-prefix.pch"; sourceTree = "<group>"; };
+		E5BDCA8A23A1FD9F009682DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5BDCA8C23A1FE0A009682DF /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		EBD84AB5B4D011FD45555711B3B142FC /* Pods_Brendan_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brendan_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1611471036795473F8BD00F1C01E79B /* GhostTypewriter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GhostTypewriter-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4875D937DF7E13A8FF2DA1955DCC71CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555C8FEA85F2278BFE2DB71BAEDE0BA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AF1A916BC00CA083858DCC1C157ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8BFB7F2E9671A9AB454E25D0E503AC /* Foundation.framework in Frameworks */,
+				6D4C73D7D18E54929E767FCF4A5FC2FB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AF3510783DD73E26A68B8962B4D27F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				509219EECA09EBA80319EF81875E09C9 /* GhostTypewriter.modulemap */,
+				5B3C45C04D60B0E212C1EC248F91A96A /* GhostTypewriter.xcconfig */,
+				AFFE25DF0A651B099F8B6669F9AD3E34 /* GhostTypewriter-dummy.m */,
+				F1611471036795473F8BD00F1C01E79B /* GhostTypewriter-Info.plist */,
+				E3D0BF69AA115113DB603F81FDBDE9C4 /* GhostTypewriter-prefix.pch */,
+				9166A3C72D329B937A8E870585F8CC2D /* GhostTypewriter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GhostTypewriter";
+			sourceTree = "<group>";
+		};
+		213124E175A9222FA4388B5AC038BDB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A26DA42E8308DEC2EDF85412C11EF58C /* GhostTypewriter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A26DA42E8308DEC2EDF85412C11EF58C /* GhostTypewriter */ = {
+			isa = PBXGroup;
+			children = (
+				807969DC0B4A28AABD9C56093B232533 /* TypewriterLabel.swift */,
+				1AF3510783DD73E26A68B8962B4D27F1 /* Support Files */,
+			);
+			path = GhostTypewriter;
+			sourceTree = "<group>";
+		};
+		A78584392E4B6314993C472150536502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C179446A8BAE6FED46868125ABFD9F3 /* GhostTypewriter.framework */,
+				EBD84AB5B4D011FD45555711B3B142FC /* Pods_Brendan_Pods.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				E5BDCA8A23A1FD9F009682DF /* ViewController.swift */,
+				E5BDCA8C23A1FE0A009682DF /* main.storyboard */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				213124E175A9222FA4388B5AC038BDB1 /* Pods */,
+				A78584392E4B6314993C472150536502 /* Products */,
+				DDFD9041A7D9CEE9B670C11ED7906622 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFD9041A7D9CEE9B670C11ED7906622 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF086678CC2139849139A8D1AAEC734 /* Pods-Brendan_Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FBF086678CC2139849139A8D1AAEC734 /* Pods-Brendan_Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BFC7F28CA2BA8B9E22DD028DAAA7B14 /* Pods-Brendan_Pods.modulemap */,
+				B7876434EBD18FE8F46AA16B0D55489F /* Pods-Brendan_Pods-acknowledgements.markdown */,
+				6600F50CC6315C0A640AAAF1EAC756F0 /* Pods-Brendan_Pods-acknowledgements.plist */,
+				627D5BD64B4B522375BD5095489938D1 /* Pods-Brendan_Pods-dummy.m */,
+				24087C14696BAF5E37928C6356290C13 /* Pods-Brendan_Pods-frameworks.sh */,
+				A8D5ED74F9044B1A91C447BFEE81F77D /* Pods-Brendan_Pods-Info.plist */,
+				1B5BF30DE7D9D17608256C42CD4AB72F /* Pods-Brendan_Pods-umbrella.h */,
+				95D2D489F2B8075AD82C9952B7EC12B7 /* Pods-Brendan_Pods.debug.xcconfig */,
+				785DDAD856F4AD53D17E70F1353D3728 /* Pods-Brendan_Pods.release.xcconfig */,
+			);
+			name = "Pods-Brendan_Pods";
+			path = "Target Support Files/Pods-Brendan_Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15057F02582375E61E298C01AC7F8775 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93B9C5219F711B24E3252FADB99FFE2 /* GhostTypewriter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640A2CCBF5E0F2142A11971447CD1E22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1861906FC8171934A5242DC4032D2D3 /* Pods-Brendan_Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E30B3A3CB0B753D7D4A63E27A5BE74C /* Pods-Brendan_Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B7E840EA9D00DFF27E576D15E0E3B7 /* Build configuration list for PBXNativeTarget "Pods-Brendan_Pods" */;
+			buildPhases = (
+				640A2CCBF5E0F2142A11971447CD1E22 /* Headers */,
+				284A2E1B9FFC0B2390A13ED67DF05A52 /* Sources */,
+				4875D937DF7E13A8FF2DA1955DCC71CA /* Frameworks */,
+				BFA7280F9D6C8808A649B1D32D7DCFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EACF75C30AAF8BAAF40284E1AF5244B /* PBXTargetDependency */,
+			);
+			name = "Pods-Brendan_Pods";
+			productName = "Pods-Brendan_Pods";
+			productReference = EBD84AB5B4D011FD45555711B3B142FC /* Pods_Brendan_Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDE6B10EDAC938DA6D87A1F53A7AC3A6 /* GhostTypewriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3E0E84A09E4E5CFC1AC27006EE804E /* Build configuration list for PBXNativeTarget "GhostTypewriter" */;
+			buildPhases = (
+				15057F02582375E61E298C01AC7F8775 /* Headers */,
+				A3511D8066CAF6CD26DB5BF8FD3F698B /* Sources */,
+				D4AF1A916BC00CA083858DCC1C157ABC /* Frameworks */,
+				8240316D8895A2A417044627CC16196A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GhostTypewriter;
+			productName = GhostTypewriter;
+			productReference = 0C179446A8BAE6FED46868125ABFD9F3 /* GhostTypewriter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A78584392E4B6314993C472150536502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE6B10EDAC938DA6D87A1F53A7AC3A6 /* GhostTypewriter */,
+				2E30B3A3CB0B753D7D4A63E27A5BE74C /* Pods-Brendan_Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8240316D8895A2A417044627CC16196A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BDCA8D23A1FE0A009682DF /* main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA7280F9D6C8808A649B1D32D7DCFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284A2E1B9FFC0B2390A13ED67DF05A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487CE7C02270D08A224BD12D567FC6C1 /* Pods-Brendan_Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3511D8066CAF6CD26DB5BF8FD3F698B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BDCA8B23A1FD9F009682DF /* ViewController.swift in Sources */,
+				31C234B03099EE24219487A6A02726C5 /* GhostTypewriter-dummy.m in Sources */,
+				37CE129078754B0A26CD57F749732AEE /* TypewriterLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EACF75C30AAF8BAAF40284E1AF5244B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GhostTypewriter;
+			target = DDE6B10EDAC938DA6D87A1F53A7AC3A6 /* GhostTypewriter */;
+			targetProxy = 8CE1A3DD9D28ECB4F9527DFE21896BDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B65D678D1C11B8248FE56AB0CD2AB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3C45C04D60B0E212C1EC248F91A96A /* GhostTypewriter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GhostTypewriter/GhostTypewriter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GhostTypewriter/GhostTypewriter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GhostTypewriter/GhostTypewriter.modulemap";
+				PRODUCT_MODULE_NAME = GhostTypewriter;
+				PRODUCT_NAME = GhostTypewriter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F987107341C8D86B9C1408382D78458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3C45C04D60B0E212C1EC248F91A96A /* GhostTypewriter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GhostTypewriter/GhostTypewriter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GhostTypewriter/GhostTypewriter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GhostTypewriter/GhostTypewriter.modulemap";
+				PRODUCT_MODULE_NAME = GhostTypewriter;
+				PRODUCT_NAME = GhostTypewriter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		597DFB0A1F5B46D27D2E7B369A59CDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D2D489F2B8075AD82C9952B7EC12B7 /* Pods-Brendan_Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Brendan_Pods/Pods-Brendan_Pods-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Brendan_Pods/Pods-Brendan_Pods.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70A003CE20E04E615753E57AC6F01CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785DDAD856F4AD53D17E70F1353D3728 /* Pods-Brendan_Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Brendan_Pods/Pods-Brendan_Pods-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Brendan_Pods/Pods-Brendan_Pods.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3E0E84A09E4E5CFC1AC27006EE804E /* Build configuration list for PBXNativeTarget "GhostTypewriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B65D678D1C11B8248FE56AB0CD2AB56 /* Debug */,
+				1F987107341C8D86B9C1408382D78458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B7E840EA9D00DFF27E576D15E0E3B7 /* Build configuration list for PBXNativeTarget "Pods-Brendan_Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597DFB0A1F5B46D27D2E7B369A59CDA0 /* Debug */,
+				70A003CE20E04E615753E57AC6F01CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
